@@ -9,7 +9,7 @@ function Nav() {
   return (
     <div className="nav__con">
       <div className='nav'>
-        <span className='logo'>SoccerVerse</span>
+        <span className='logo'>BrandName</span>
         <NavContainer className="nav__container"/>
         <GiHamburgerMenu onClick={() => setShow(!show)} className="menu-icon"/>
       </div>
