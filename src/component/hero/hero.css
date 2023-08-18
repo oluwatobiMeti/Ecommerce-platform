@@ -3,12 +3,17 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+    width: 100%;
     gap: 2rem;
-    background: rgb(247, 247, 247);
+    height: 80vh;
+    background-image: url("../../images/shop-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.hero__content {
+/* .hero__content {
     width: 30vw;
-    color: #37b24d;
+    color: goldenrod;
     margin-right: 5rem;
 }
 .hero__img {
@@ -27,7 +32,7 @@
 }
 .hero__btn {
     padding: .4rem 1.2rem;
-    background-color: #37b24d;
+    background-color: goldenrod;
     color: white;
     border: 0;
     font-size: 20px;
@@ -65,4 +70,4 @@
     .hero__header{
         font-size: 2.5rem;
     }
-}
+} */

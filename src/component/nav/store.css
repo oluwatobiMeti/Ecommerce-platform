@@ -1,0 +1,27 @@
+.store {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    color: #23A6F0;
+    padding-right: 2rem;
+}
+
+.store-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+.icon-with-counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+@media (max-width: 800px) {
+    .love-icon {
+        display: none;
+    }
+}

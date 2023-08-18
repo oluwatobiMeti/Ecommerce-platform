@@ -1,0 +1,14 @@
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+.dropdownLink {
+    display: flex;
+    width: 300px;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+}

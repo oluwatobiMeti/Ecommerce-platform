@@ -1,0 +1,38 @@
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252B42;
+    color: white;
+    padding: 0 4rem;
+}
+.nav-header-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+.nav-header-List-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.contactLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+@media (max-width: 1000px) {
+    .mobile {
+        display: none;
+    }
+}
