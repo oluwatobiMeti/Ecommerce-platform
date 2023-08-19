@@ -1,11 +1,11 @@
 import React from 'react'
 import "./hero.css";
-import ButtonLink from '../nav/ButtonLink';
-
 import Slider from 'react-slick';
+import HeroContent from './HeroContent';
 import img from "../../images/shop-hero.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import HeroContentTwo from './HeroContentTwo';
 
 function Carosel() {
     var settings = {
@@ -16,10 +16,13 @@ function Carosel() {
         slidesToScroll: 1
       };
   return (
-    <Slider {...settings}>
-       <Hero img={img} alt="a woman with a bag after shopping"/>
-       <Hero img={img} alt="a woman with a bag after shopping"/>
-    </Slider>
+    <div className="carosel">
+      <Slider {...settings}>
+         <HeroContent/>
+         <HeroContent/>
+         <HeroContentTwo/>
+      </Slider>
+    </div>
   )
 }
 
@@ -31,4 +34,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default Hero;
