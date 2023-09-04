@@ -10,7 +10,7 @@ import {ColorContext} from './CounterContext'
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<RootLayout/>}>
-      <Route index path='Home' element={<Home/>}/>
+      <Route index element={<Home/>}/>
       <Route path='About' element={<About/>}/>
   </Route>
   )

@@ -4,7 +4,7 @@ import Dropdown from './Dropdown';
 function NavContainer({className}) {
   return (
     <div className={`${(className === "nav__container")?"nav__container":"mobile__nav"}`}>
-       <LinkComp to="/Home" title="Home"/>
+       <LinkComp to="/" title="Home"/>
        <Dropdown/>
        <LinkComp to="/About" title="About"/>
        <LinkComp to="/Blog" title="About"/>
